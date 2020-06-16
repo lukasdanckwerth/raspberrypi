@@ -1,4 +1,6 @@
-## Update RaspberryPi
+# initialize a new raspberry pi
+
+## local configuration
 
 ```
 sudo raspi-config
@@ -7,5 +9,11 @@ sudo raspi-config
  * set new password
  * set new hostname
  * expand filesystem
- 
- 
+
+## update & upgrade system
+
+```
+sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get install -y \
+    vim \
+    git
+```
