@@ -10,9 +10,11 @@ sudo usermod -aG docker pi
 
 ## 3. IMPORTANT! Install proper dependencies
 ```
-sudo apt-get install -y libffi-dev libssl-dev
-
-sudo apt-get install -y python3 python3-pip
+sudo apt-get install -y \
+  libffi-dev \
+  libssl-dev \
+  python3 \
+  python3-pip
 
 sudo apt-get remove python-configparser
 ```
