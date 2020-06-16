@@ -24,4 +24,4 @@ sudo vim /etc/ssh/ssh_config
 
 # comment out following line
 SendEnv LANG LC_*
-
+```
