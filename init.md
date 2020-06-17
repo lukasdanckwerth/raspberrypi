@@ -25,3 +25,8 @@ sudo vim /etc/ssh/ssh_config
 # comment out following line
 SendEnv LANG LC_*
 ```
+
+## install `ffmpeg`
+```
+sudo apt-get install ffmpeg
+```
