@@ -1,12 +1,12 @@
 ## view existing disks
 ```
-sudo fdisk –l
+sudo fdisk -l
 ```
 
 ## plugin external drive
 ```
 # again
-sudo fdisk –l
+sudo fdisk -l
 ```
 
 ## mount harddrive
