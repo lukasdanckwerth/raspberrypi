@@ -6,7 +6,7 @@
 ## Contents
 
 - [Initialization](#Initialization)
-- [Install Docker](install-docker.md)
+- [Install Docker](#Install-Docker)
 - [Install Swift](install-swift.md)
 - [Mount External Harddrive](mount-external-hard-drive.md)
 
@@ -47,3 +47,12 @@ SendEnv LANG LC_*
 ```shell
 sudo apt-get install ffmpeg
 ```
+
+
+# Install Docker
+
+```shell
+sudo apt-get install -y docker.io docker-compose lazydocker
+```
+
+> Reboot
