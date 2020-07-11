@@ -54,7 +54,9 @@ sudo apt-get install ffmpeg
 # Install Docker
 
 ```shell
-sudo apt-get install -y docker.io docker-compose lazydocker
+$ sudo apt-get install -y docker.io docker-compose lazydocker
+
+$ sudo groupadd docker && sudo usermod -aG docker $USER
 ```
 
 > Reboot
